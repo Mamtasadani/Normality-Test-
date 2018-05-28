@@ -13,7 +13,7 @@ Normality tests of univariate dataset include the following tests:
 
 I have used only first three tests.
 
-# The Shapiro-Wilk -
+## The Shapiro-Wilk -
 The test is a way to tell if a random sample comes from a normal distribution. The test gives you a W value; small values indicate your sample is not normally distributed (you can reject the null hypothesis that your population is normally distributed if your values are under a certain threshold).
 
 # D'Agostino's K-squared test-
