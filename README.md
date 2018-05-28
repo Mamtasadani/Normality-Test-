@@ -12,20 +12,16 @@ Normality tests of univariate dataset include the following tests:
 8. Pearson's chi-squared test.
 
 I have used only first three tests.
-The Shapiro-Wilk test is a way to tell if a random sample comes from a normal distribution. The test gives you a W value; small values indicate your sample is not normally distributed (you can reject the null hypothesis that your population is normally distributed if your values are under a certain threshold). The formula for the W value is:
- 
-where:
-xi are the ordered random sample values
-ai are constants generated from the covariance’s, variances and means of the sample (size n) from a normally distributed sample.
-The test has limitations, most importantly that the test has a bias by sample size. The larger the sample, the more likely you’ll get a statistically significant result.
 
-D'Agostino's K-squared test
+# The Shapiro-Wilk -
+The test is a way to tell if a random sample comes from a normal distribution. The test gives you a W value; small values indicate your sample is not normally distributed (you can reject the null hypothesis that your population is normally distributed if your values are under a certain threshold).
+
+# D'Agostino's K-squared test-
 The test is based on transformations of the sample kurtosis and skewness, and has power only against the alternatives that the distribution is skewed and/or kurtic.
 
-The Anderson-Darling test is used to test if a sample of data came from a population with a specific distribution. It is a modification of the Kolmogorov-Smirnov (K-S) test and gives more weight to the tails than does the K-S test. The K-S test is distribution free in the sense that the critical values do not depend on the specific distribution being tested. The Anderson-Darling test makes use of the specific distribution in calculating critical values. This has the advantage of allowing a more sensitive test and the disadvantage that critical values must be calculated for each distribution.
+# The Anderson-Darling test-
+It is used to test if a sample of data came from a population with a specific distribution. It is a modification of the Kolmogorov-Smirnov (K-S) test and gives more weight to the tails than does the K-S test. The K-S test is distribution free in the sense that the critical values do not depend on the specific distribution being tested. The Anderson-Darling test makes use of the specific distribution in calculating critical values. This has the advantage of allowing a more sensitive test and the disadvantage that critical values must be calculated for each distribution.
 
 
-
-
-
-Source of Dataset : https://archive.ics.uci.edu/ml/datasets/Cryotherapy+Dataset+
+# Source of Dataset- : 
+https://archive.ics.uci.edu/ml/datasets/Cryotherapy+Dataset+
