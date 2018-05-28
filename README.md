@@ -20,7 +20,7 @@ The test is a way to tell if a random sample comes from a *normal distribution*.
 The test is based on transformations of the sample *kurtosis* and *skewness*, and has power only against the alternatives that the distribution is skewed and/or kurtic.
 
 ### The Anderson-Darling test-
-It is used to test if a sample of data came from a population with a specific distribution. It is a modification of the Kolmogorov-Smirnov (K-S) test and gives more weight to the tails than does the K-S test.The K-S test is distribution free in the sense that the 8critical values8 do not depend on the specific distribution being tested. The Anderson-Darling test makes use of the specific distribution in calculating critical values. This has the advantage of allowing a more sensitive test and the disadvantage that critical values must be calculated for each distribution.
+It is used to test if a sample of data came from a population with a specific distribution. It is a modification of the Kolmogorov-Smirnov (K-S) test and gives more weight to the tails than does the K-S test.The K-S test is distribution free in the sense that the critical values do not depend on the specific distribution being tested. The Anderson-Darling test makes use of the specific distribution in calculating critical values. This has the advantage of allowing a more sensitive test and the disadvantage that critical values must be calculated for each distribution.
 
 
 ### Source of Dataset-:
